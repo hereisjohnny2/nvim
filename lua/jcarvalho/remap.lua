@@ -22,3 +22,19 @@ vim.keymap.set('n', ']d', vim.diagnostic.goto_next)
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float)
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist)
 
+-- Remap to move code block around
+vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", { desc = 'Move code block down' })
+vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv", { desc = 'Move code block up' })
+
+vim.keymap.set('n', 'J', 'mzJ`z', { desc = 'Keep cursor at line begin' })
+
+-- Cursor jump
+vim.keymap.set('n', '<C-d>', '<C-d>zz', { desc = 'Keep cursor at the middle when page jump down' })
+vim.keymap.set('n', '<C-u>', '<C-u>zz', { desc = 'Keep cursor at the middle when page jump up' })
+
+-- Cursor jump search
+vim.keymap.set('n', 'n', 'nzzzv', { desc = 'Keep cursor at the middle when search down' })
+vim.keymap.set('n', 'N', 'Nzzzv', { desc = 'Keep cursor at the middle when search up' })
+
+-- Greatest remap ever
+vim.keymap.set('n', '<leader>p', '\"_dP')
