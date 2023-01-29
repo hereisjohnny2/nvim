@@ -63,7 +63,7 @@ require('packer').startup(function(use)
 
   use 'ThePrimeagen/harpoon' -- Cool File finder 
   use 'mbbill/undotree'
-
+  use 'christoomey/vim-tmux-navigator'
   -- Add custom plugins to packer from ~/.config/nvim/lua/custom/plugins.lua
   local has_plugins, plugins = pcall(require, 'custom.plugins')
   if has_plugins then

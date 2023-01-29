@@ -32,3 +32,11 @@ vim.cmd [[colorscheme onedark]]
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
 
+-- Tabs
+vim.o.tabstop = 4
+vim.o.softtabstop = 4
+vim.o.shiftwidth = 4
+vim.o.expandtab = true
+
+vim.o.smartindent = true
+
