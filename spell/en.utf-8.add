@@ -1,0 +1,8 @@
+keymaps
+vim.keymap.set
+mapleader
+Nop
+tmux-sessionizer
+neww
+tmux
+cmd

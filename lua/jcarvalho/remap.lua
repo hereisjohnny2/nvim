@@ -47,3 +47,4 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
 
+vim.keymap.set("n", "<F3>", "<cmd>set spell!<CR>", { desc = 'Toggle Spell Checker' })

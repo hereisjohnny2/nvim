@@ -40,3 +40,4 @@ vim.o.expandtab = true
 
 vim.o.smartindent = true
 
+vim.o.spelllang = 'en,pt'
