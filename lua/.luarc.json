@@ -1,0 +1,30 @@
+{
+    "workspace.library": [
+        "/home/joao/.local/share/nvim/site/pack/packer/start/neodev.nvim/types/nightly",
+        "/home/joao/neovim/share/nvim/runtime/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/opt/nvim-treesitter-textobjects/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/opt/telescope-fzf-native.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/Comment.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/LuaSnip/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/cmp_luasnip/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/dracula.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/fidget.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/gitsigns.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/harpoon/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/lualine.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/mason.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/neodev.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/nvim-cmp/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/nvim-lspconfig/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/nvim-treesitter/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/onedark.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/packer.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/plenary.nvim/lua",
+        "/home/joao/.local/share/nvim/site/pack/packer/start/telescope.nvim/lua",
+        "/home/joao/.config/nvim/lua",
+        "${3rd}/luv/library"
+    ]
+}

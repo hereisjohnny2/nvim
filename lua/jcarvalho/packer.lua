@@ -11,6 +11,10 @@ require('packer').startup(function(use)
   -- Package manager
   use 'wbthomason/packer.nvim'
 
+  -- Debugger
+  use 'mfussenegger/nvim-dap'
+  use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+
   use { -- LSP Configuration & Plugins
     'neovim/nvim-lspconfig',
     requires = {
@@ -64,6 +68,8 @@ require('packer').startup(function(use)
   use 'mbbill/undotree'
   use 'christoomey/vim-tmux-navigator'
   use 'nvim-tree/nvim-web-devicons'
+
+  use 'prettier/vim-prettier'
 
   -- Add custom plugins to packer from ~/.config/nvim/lua/custom/plugins.lua
   local has_plugins, plugins = pcall(require, 'custom.plugins')
